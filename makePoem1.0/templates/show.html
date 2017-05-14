@@ -1,0 +1,13 @@
+<!doctype html>
+<head>
+<meta charset="utf-8">
+<title>识图吟诗</title>
+<link href="{{ url_for('static',filename='show.css') }}" rel="stylesheet" type="text/css">
+</head>
+<body>
+<img src="{{ pic_url }}" 
+     style="display: block; margin-left: auto;margin-right: auto; margin-top: 40%; width:60%; height: auto; border-radius: 100%" >
+
+<p style="font-family: STXingkai; font-size: 2rem; text-align: center;">{{ poem }}</p>
+<p style="font-family: STXingkai; font-size: 2rem; text-align: center;"> {{ poem_writer }}</p>
+</body>
